@@ -114,7 +114,7 @@ p {
   fill: currentColor;
 }
 
-.header-tel {
+.connect-icon-phone {
   fill: currentColor;
 }
 
@@ -258,7 +258,7 @@ p {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: var(--buttons-port-color);  
 }
 
 .title-benefits {
@@ -276,10 +276,7 @@ p {
 }
 /* section3 */
 
-/* .section-work {
-  padding-top: 0;
-  padding-bottom: 0;
-} */
+
 .section-work {
   padding-top: 0;
 }
