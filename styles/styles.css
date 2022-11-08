@@ -141,8 +141,8 @@ p {
   color: var(--accent-color);
 }
 
-.header-list.link:hover,
-.header-list.link:focus {
+.header-list.link:hover, .header-mail-tel:hover,
+.header-list.link:focus, .header-mail-tel:focus {
   color: var(--accent-color);
 }
 
@@ -157,10 +157,6 @@ p {
   color: var(--owner-text-color);
 }
 
-.header-mail-tel:hover,
-.header-mail-tel:focus {
-  color: var(--accent-color);
-}
 
 /* main */
 
