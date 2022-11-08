@@ -431,10 +431,14 @@ p {
   line-height: 1.71;
   color: var(--background-color);
 }
-.footer-link.link:hover,
-.footer-link.link:focus {
+.footer-link.link:hover, .footer-mail-tel:hover,
+.footer-link.link:focus, .footer-mail-tel:focus {
   color: var(--accent-color);
+   
 }
+
+
+
 .footer-container {
   display: flex;
   align-items: baseline;
